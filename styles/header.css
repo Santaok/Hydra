@@ -1,0 +1,40 @@
+.header__list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+ 
+}
+.header__item{
+    margin-left: 30px;
+   
+   
+}
+
+.header__contact__list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+   position: absolute;
+   right: 20px;
+   top: 1.5vw;
+}
+.header__contact{
+    margin: 20px;
+    border: 2px solid #FFFFFF;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+.header__join {
+    margin: 20px;
+   
+    font-size: 12px;
+    padding: 13px 20px 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(21deg, rgba(129, 118, 175, 1) 100%, rgb(255, 255, 255) 100%);
+}
+
+.header_join_text {
+    color: black;
+    font-weight: 800;
+}

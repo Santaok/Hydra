@@ -1,0 +1,13 @@
+
+@import url(styles/header.css);
+@import url(styles/main.css);
+
+
+.page{
+    background-color: rgb(48,44,66);
+    padding: 3vw;
+}
+a{
+    text-decoration: none;
+     color: #FFFFFF;;
+}
