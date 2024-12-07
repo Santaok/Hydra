@@ -1,0 +1,45 @@
+.main__text_color{
+    color: #C0B7E8;
+}
+.main__title{
+    color: rgb(255, 255, 255);
+  margin-top: 13vw;
+}
+.main__paragraph{
+    color: aliceblue;
+}
+.main__buttton{
+    margin: 20px;
+    font-size: 12px;
+    padding: 13px 20px 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    background: linear-gradient(21deg, rgba(129, 118, 175, 1) 100%, rgb(255, 255, 255) 100%);
+}
+
+
+.main__img{
+    position: absolute;
+    right: 1.2vw;
+    border-radius: 5vw 5vw 5vw 12vw;
+    width: 25.3646vw;
+    height: 21.1979vw;
+    margin-top: 20px;
+}
+.back__img{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.288);
+    right: 20vw;
+    width: 27.2917vw;
+    height: 23.6979vw;
+    border-radius: 5vw 5vw 5vw 12vw;
+ top: 17vw;
+   
+}
+
+.img__logo{
+    position: absolute;
+    width: 20vw;
+    top: 2vw;
+}
