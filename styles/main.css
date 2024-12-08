@@ -1,9 +1,11 @@
 .main__text_color{
     color: #C0B7E8;
+    font-size: 2.3958vw
 }
 .main__title{
     color: rgb(255, 255, 255);
   margin-top: 13vw;
+  font-size: 2.3958vw;
 }
 .main__paragraph{
     color: aliceblue;
@@ -15,7 +17,8 @@
     border-radius: 20px;
     border: none;
     font-weight: 600;
-    background: linear-gradient(21deg, rgba(129, 118, 175, 1) 100%, rgb(255, 255, 255) 100%);
+    background: rgb(80,70,120);
+background: linear-gradient(93deg, rgba(80,70,120,1) 0%, rgba(192,183,232,1) 100%);
 }
 
 
@@ -42,4 +45,118 @@
     position: absolute;
     width: 20vw;
     top: 2vw;
+}
+
+.main__card__contact{
+    background: rgb(96,84,154);
+background: radial-gradient(circle, rgba(96,84,154,1) 0%, rgba(33,30,46,1) 78%);
+display: flex;
+justify-content: space-around;
+text-align: center;
+height: 20vh;
+position: relative;
+top: 20vh;
+border-radius: 5vw;
+width: 80vw;
+left: 5vw;
+}
+.card__content{
+    margin-top: 3vw;
+    color: white;
+    font-weight: 600;
+    font-size: 1.9vw;
+}
+.main__span{
+    margin-top: 0.3vw;
+    color: white;
+    font-weight: 4;
+    font-size: 14px;
+    display: flex;
+}
+.card__img{
+    position: relative;
+}
+
+.main__card__img{
+    position: relative;
+    height: 10px;
+    width: 10px;
+    z-index: 2;
+    display: flex;
+    top: 7vw;
+    left: 9vw;
+}
+.card__img{
+    height: 9.3854vw;
+    width: 20vw;
+}
+.card__img__kon{
+    height: 9.3854vw;
+    margin-left: 1vw;
+    width: 20vw;
+}
+.card__img__call{
+    margin-left: 4vw;
+    height: 9.3854vw;
+    width: 20vw;
+}
+.card__INTRODUCTION{
+    position: relative;
+    top: 18vw;
+}
+.card__title{
+    font-size: 1.8750vw;
+    color: aliceblue;
+    font-weight: 900;
+}
+.card__title__negr{
+    font-size: 1.8750vw;
+    color: aliceblue;
+    font-weight: 900;
+    position: absolute;
+    right: 32vw;
+    top: 20vw;
+}
+.card_p{
+    font-size: 1.8750vw;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.negr__img{
+   
+    border-radius: 12vw 5vw 12vw 5vw
+}
+.negr__text{
+    position: absolute;
+    color: aliceblue;
+    width:40%;
+    margin:0 auto;
+    right: 5vw;
+    top: 1vw;
+    line-height: 1.7vw;
+}
+.card__negro__text{
+    position: absolute;
+    color: aliceblue;
+    width:40%;
+    margin:0 auto;
+    right: 5vw;
+    top: 30vw;
+    line-height: 1.7vw;
+}
+.card__negr__button{
+    background: rgb(80,70,120);
+background: linear-gradient(93deg, rgba(80,70,120,1) 0%, rgba(192,183,232,1) 100%);
+padding: 1vw;
+border-radius: 20px;
+font-weight: 600;
+border: none;
+position: absolute;
+top: 46vw;
+right: 31vw;
+}
+button:hover{
+ 
+    transform: scale(1vw);
 }
