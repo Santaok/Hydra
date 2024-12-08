@@ -65,7 +65,9 @@ left: 5vw;
     color: white;
     font-weight: 600;
     font-size: 1.9vw;
+    
 }
+
 .main__span{
     margin-top: 0.3vw;
     color: white;
@@ -108,6 +110,8 @@ left: 5vw;
     font-size: 1.8750vw;
     color: aliceblue;
     font-weight: 900;
+    line-height: 3vw;
+    margin-bottom: 3vw;
 }
 .card__title__negr{
     font-size: 1.8750vw;
@@ -115,7 +119,7 @@ left: 5vw;
     font-weight: 900;
     position: absolute;
     right: 32vw;
-    top: 20vw;
+    top: 11vw;
 }
 .card_p{
     font-size: 1.8750vw;
@@ -133,7 +137,7 @@ left: 5vw;
     width:40%;
     margin:0 auto;
     right: 5vw;
-    top: 1vw;
+    top: vw;
     line-height: 1.7vw;
 }
 .card__negro__text{
@@ -142,7 +146,7 @@ left: 5vw;
     width:40%;
     margin:0 auto;
     right: 5vw;
-    top: 30vw;
+    top: 20vw;
     line-height: 1.7vw;
 }
 .card__negr__button{
@@ -153,10 +157,86 @@ border-radius: 20px;
 font-weight: 600;
 border: none;
 position: absolute;
-top: 46vw;
+top: 35vw;
 right: 31vw;
 }
 button:hover{
  
     transform: scale(1vw);
+}
+
+.wrapper{
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 4vw;
+}
+.card__text{
+    position: absolute;
+    color: aliceblue;
+    width:36%;
+    margin:0 auto;
+    right: 8.66vw;
+    top: 52vw;
+    
+
+}
+
+.card{
+    position: relative;
+    top: 40vw;
+}
+.card__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    
+    text-align: center;
+    background: rgb(73,66,105);
+    background: radial-gradient(circle, rgba(73,66,105,1) 0%, rgba(18,16,27,1) 100%);
+    border-radius: 3vw;
+    
+    width: 22vw;
+}
+.box__item{
+    width: 11.9437vw;
+    height: 11.9437vw;
+    border-radius: 10vw;
+    margin-top: 1.22vw;
+    
+}
+.title__box{
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 24px;
+    border-bottom: 2px solid rgba(240, 248, 255, 0.334);
+    margin-left: 5vw ;
+    margin-right: 5vw ;
+}
+
+
+
+
+.box__text{
+    width:70%;
+    margin:0 auto;
+    color: aliceblue;
+    font-size: 12px;
+    line-height: 1.30vw;
+}
+.button__box{
+    border-radius: 2vw;
+    padding: 0.70vw;
+    width: 10vw;
+    background: rgb(114,103,162);
+background: linear-gradient(93deg, rgba(114,103,162,1) 0%, rgba(192,183,232,1) 100%);
+margin-top: 1vw;
+margin-bottom: 2vw;
+}
+.box__img{
+    margin-left: 4.55vw;
+    background-color: rgba(0, 0, 0, 0.238);
+width: 13.4063vw;
+height: 14.01vw;
+border-radius: 10vw;
 }
